@@ -53,10 +53,10 @@ class ReplyBodyType(Enum):
   Myself =1
   Robot = 2
 staticRepMsg = {
-                "hiMsg":u'你好呀，我是AI鹿鹿（自动回复），由于您的消息超过10分钟没有回复呢，可能是客服正在忙别的事情，无法及时回复您的消息。下面是我为您准备的一些关于房间常见问题解决的快速解决方案，希望能够帮助您。还望理解，谢谢啦。',
-                "reqList":u'月圆民宿帮助指南  00',
-                "goodNigth":u'夜已深，小月已经休息啦，我是AI鹿鹿（自动回复），不知道您遇到什么问题，我提前为您准备了一份帮助指南，希望能帮助您，如果是紧急问题，请致电。',
-                "tel":u'小月工作时间09:00--00:00\n助手电话：00',
+                "hiMsg":u'*****',
+                "reqList":u'****',
+                "goodNigth":u'*****',
+                "tel":u'*****\n*****：00',
                 } 
 CurReplyTimeType = ReplyTimeType.DelayRep
 CurReplyMainType = None
