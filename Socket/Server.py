@@ -1,7 +1,7 @@
 # encoding=utf-8
 import socket
 HOST = '10.211.51.3'
-PORT = 10087
+PORT = 10012
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST, PORT))
 s.listen(1)
